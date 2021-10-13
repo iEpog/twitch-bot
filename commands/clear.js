@@ -5,7 +5,7 @@ exports.run = async (client,channel,tags,message,self,args) => {
     let isModUp = isMod || isBroadcaster;
     if(!isModUp) return client.say(channel,'@'+tags.username+', You are not a Moderator!')
     client.clear(channel)
-    client.say(channel,'Cleared all chat Cleared!')
+    client.say(channel,tags.username+', Cleared all chat!')
 }
 
 exports.command= {
