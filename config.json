@@ -1,0 +1,11 @@
+{
+    "channels" : ["channel name "],
+
+    "identify": {
+		"username": "channel name",
+		"password": "OAuth Token! Get this token from this link: https://twitchapps.com/tmi/"
+
+	},
+    "WebhookLogging": false,
+    "WebhookURL": "Discord Webhook URL| Set WebhookLigging true"
+}

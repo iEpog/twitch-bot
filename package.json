@@ -1,0 +1,21 @@
+{
+  "name": "twitch-bot-epog",
+  "version": "0.0.1",
+  "description": "Epog's Simple Twitch Bot ",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "keywords": [
+    "twitch",
+    "bot",
+    "epog",
+    "simple"
+  ],
+  "author": "Epog",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.5",
+    "tmi.js": "^1.8.5"
+  }
+}
