@@ -3,7 +3,6 @@ let config = require('./config.json')
 let fetch = require('node-fetch')
 const fs = require("fs");
 let epog = require('./epogCommandHandler.js');
-const { Webhook } = require('discord.js');
 
 
 const client = new tmi.Client({
