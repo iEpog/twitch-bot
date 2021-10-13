@@ -7,5 +7,5 @@
 
 	},
     "WebhookLogging": false,
-    "WebhookURL": "Discord Webhook URL| Set WebhookLigging true"
+    "WebhookURL": "Discord Webhook URL| Set WebhookLogging true"
 }
