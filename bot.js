@@ -86,6 +86,14 @@ client.on("raided", (channel, username, viewers) => {
     client.say(channel, username + ', raided us with ' + viewers + ' viewers! Thanks for the raid ❤️')
 })
 
+let CustomCommands = require("./database/commands.json")
+
+client.on('message', (channel, tags, message, self) => {
+    if (self) return;
+    const args = message.slice().trim().split(/ +/g)
+    let cmnd = CustomCommands[channel+'|'+args.shift().toLowerCase()]
+    if(cmnd) client.say(channel,cmnd.response)
+})
 
 
 
