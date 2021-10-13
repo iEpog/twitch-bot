@@ -5,9 +5,9 @@ exports.run = async (client,channel,tags,message,self,args) => {
     let isModUp = isMod || isBroadcaster;
     if(!isModUp) return client.say(channel,'@'+tags.username+', You are not a Moderator!')
     client.subscribersoff(channel)
-    client.say(channel,'Sub-Mod Off!')
+    client.say(channel,'Sub-Mode Off!')
 }
 
 exports.command= {
-    name: "!submodoff",
+    name: "!submodeoff",
   };
