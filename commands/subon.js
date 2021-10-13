@@ -9,5 +9,5 @@ exports.run = async (client,channel,tags,message,self,args) => {
 }
 
 exports.command= {
-    name: "!submod",
+    name: "!submode",
   };
