@@ -14,6 +14,16 @@ Simple Twitch moderation/token bot with Discord Webhook Logger and Command Handl
  <br>
  ⦁ Simple Command handler
  <br></br>
+ <h1>Installation</h1>
+
+<a href="https://node.js.org/">Node.JS<p align="left"> <a href="https://nodejs.org" target="_blank"> <img src="https://nodejs.org/static/images/logo.svg" alt="nodejs" width="65" height="65"/></a>
+
+ - Download 
+ - Go Folder
+ - Open New Terminal
+ - Type `npm i`
+ - Then run file `start.bat`
+ 
  <h1>Commands</h1>
 
 - ``!addcommand``: **Add Custom Command to Channel**
