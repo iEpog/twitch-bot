@@ -1,5 +1,5 @@
 {
-    "channels" : ["channel name "],
+    "channels" : ["twitch channel name "],
 
     "identify": {
 		"username": "channel name",
